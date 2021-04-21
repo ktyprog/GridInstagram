@@ -4,38 +4,41 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="styles" href=" GridInstagram/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>Instagram!</title>
 </head>
 <body>
 	<!--menu de navegacion-->
 
 <nav class="navbar navbar-light bg-light">
-	<a class="navbar-brand" href="#">
-		<!-- Image and text -->
-	<img src="/GridInstagram/img/instagram (1).svg" width="30" height="30" class="d-inline-block align-top" alt="logoInstagram">
-	<span class="text-secondary h2 font-italic ">Instagram
-	</span> 
-	</div>
-	</div>
-	<!--button green-->
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+            <!-- Image and text -->
+             <i class="fab fa-instagram" style="font-size: 30px;"></i>
+                <img src="https://i.pinimg.com/originals/14/e2/d4/14e2d4c02ecab741f68b1cb94571ba24.jpg" width="120" height="100" class="d-inline-block align-top img-fluid"  alt="" loading="lazy">
+    
+        </div>
+            <a class="navbar-brand" href="#">
+        
+        
+        <!--button green-->
 
 	<div class="container">
-	<div class="row">
-	<div class="columna" id="button modal1">
-		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Create a New post</button>
-		<a><img src="/GridInstagram/img/gear-fill.svg" width="30" height="30" class="d-inline-block align-top" alt="logoInstagram"></a>
+	    <div class="row">
+	        <div class="columna" id="button modal1">
+		        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Create a New post</button>
+		
 
 		<!--icono de engranage-->
 
-		<!--img src="/GridInstagram/img/gear-fill.svg" width="20" height="20" class="d-inline-block align-top" alt="img"-->
+		<i class="fas fa-cog"></i>
 
 		<!--Modal-->
 	<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"  aria-labelledby="staticBackdropLabel" aria-hidden="true">
-		<div class="modal-dialog">
+		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 
 				<!--content modal-->
@@ -47,20 +50,18 @@
 
 				<!--modal body-->
 					<div class="modal-body">
-				<p>
-					<textarea class="form-control" name="mensaje" placeholder="" id="textarea"></textarea>
-				</p>
+				        <form>
+                            <div class="form-group">
+                                <label for="textarea1"></label>
+                            <textarea class="form-control border-dark" id="textarea1" row="2"></textarea>
+                            </div>
+				        </form>
 					</div>
 					<!--iconos de camara y ubicacion-->
 					<div container>
-						<a href="#">
-						<span class="border rounded border-secondary">
-							<img src="/GridInstagram/img/camera-fill.svg" width="30" height="30" class="d-inline-block align-top" alt="logoInstagram"></a> 
-						
-						<span class="border rounded  border-secondary">
-							<a href="#">
-							<img src="/GridInstagram/img/geo-alt.svg" width="30" height="25" class="d-inline-block align-top" alt="logoInstagram">
-						</span></a>	
+						<a href="#"><i class="fas fa-camera" style="font-size: 20px; margin-right: 2px; border: 1.5px solid  lightgray; padding: 6px border-radius 4px;"></i>
+						<a href="#"><i class="fas fa-map-marker-alt" style="font-size: 20px; margin-right: 2px; border: 1.5px solid  lightgray; padding: 6px border-radius 4px;"></i>
+						</a>	
 					</div>
 
 					<!--modal footer-->
@@ -76,36 +77,43 @@
 <div class="dropdown">
 	<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	</a>
-	<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-	  <a class="dropdown-item" href="#">Action</a>
-	  <a class="dropdown-item" href="#">Another action</a>
-	  <a class="dropdown-item" href="#">Something else here</a>
-	  <div class="dropdown-divider"></div>
-	  <a class="dropdown-item" href="#">Log Out</a>
+	    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+	        <a class="dropdown-item" href="#">Action</a>
+	        <a class="dropdown-item" href="#">Another action</a>
+	        <a class="dropdown-item" href="#">Something else here</a>
+	    <div class="dropdown-divider"></div>
+	     <a class="dropdown-item" href="#">Log Out</a>
 	</div>
 </div>
 	</a>
 </nav>
 
-<!--espacio de navegacion-->
+<!--espacio de navegacion-->----
 <div class="container ">
 	<div class="row m-3">
 		<div class="col text-center">
-			<p>
-				<a href="" class="btn btn-secondary"><img src="/GridInstagram/img/grid-3x3-gap.svg" width="30" height="25" class="d-inline-block align-top" alt="logoInstagram"></a>
+            <div class="col">
 
-				</a>
-			</p>
+			    <p>
+                <a href="#bloque1" data-toggle="collapse" role="button" aria-expanded="false"  aria-controls="bloque1" class="btn btn-secondary"><i class="fas fa-grip-horizontal"></i></a>
+                <a href="" class="btn btn-secondary"><i class="fas fa-stop"></i></a>
+                    <div  class= "collapse"  id="bloque1">
+                        <div class="card card-body">
+                            <img src="https://picsum.photos/id/1015/200/300">
+                        </div>
+                    </div>
+			    </p>
+            
+            </div>    
 		</div>
 	</div>
-
 </div>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
