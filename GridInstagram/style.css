@@ -5,3 +5,10 @@ body {
 .fa-instagram{
     font-size: 20px;
 }
+
+fa-bars:before {
+    content: "\f0c9";
+}
+.fa-minus-square:before {
+    content: "\f146";
+}

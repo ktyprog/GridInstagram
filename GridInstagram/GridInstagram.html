@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>Instagram!</title>
 </head>
 <body>
@@ -91,96 +91,83 @@
 
 <!--espacio de navegacion-->----
 <nav>
-<div class="nav nav-pill my-4 justify-content-center" id="pills-tab" role="tablist">
-    <a class="nav-item nav-link active bg-ligth text-dark mr-1" id="pills-stacked-tab" data-toggle="pill" href="#pills-stacked" role="presentation" aria-controls="pills-stacked" aria-selected="true">
-        <i class="fas fa-th"></i>
-    </a>
-        <a class="nav-item nav-link bg-light text-dark" id="pills-displayed-tab" data-toggle="pill" href="#pills-displayed" role="presentation" aria-controls="pills-displayed" aria-selected="false">
+    <div class="nav nav-pill my-4 justify-content-center" id="pills-tab" role="tablist">
+        <a class="nav-item nav-link active bg-ligth text-dark mr-1" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+            <i class="fas fa-th"></i> <!--icono d coolapse-->
+        </a>
+             <a class="nav-item nav-link bg-light text-dark" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
         <i class="fas fa-stop"></i>
         </a>
     </div>
 </nav>
-<div class="tab-content" id="pills-tabContent">
 
     <!--columnas con imagenes-->
-    <div class="tab-pane fade show active" id="pills-stacked" role="tabpanel" aria-labelledby="pills-stacked-tab">
-         <div class="card-group">
-            <div class="card card m-2 border-0">
-                <img src="https://picsum.photos/id/1011/400/200" class="card-img" alt="..">
-            </div>
-            <div class="card card m-2 border-0">
-                <img src="https://picsum.photos/id/1012/400/200" class="card-img" alt="..">
-            </div>
-            <div class="card card m-2 border-0">
-            <img src="https://picsum.photos/id/1011/400/200" class="card-img" alt="..">
-        </div>
-    </div>
-      <div class="card card m-2 border-0">
-          <img src="https://picsum.photos/id/1012/400/200" class="card-img" alt="..">
-      </div>
-  </div>
-  <div class="card-group"></div>
-      <div class="card card m-2 border-0">
-          <img src="https://picsum.photos/id/1015/400/200" class="card-img" alt="..">
-      </div>
-      <div class="card card m-2 border-0">
-          <img src="https://picsum.photos/id/1016/400/200" class="card-img" alt="..">
-      </div>
-      <div class="card card m-2 border-0">
-          <img src="https://picsum.photos/id/1012/400/200">
-      </div>
-    </div>
-</div>
-
-<div class="tab-pane fade" id="pills-displayed" role="tabpanel" aria-labelledby="pills-displayed-tab">
-    <div class="container-fluid bg-light">
-
-        <div class="row">
-            <div class="card my-4 mx-auto" style="width: 600px;">
+     <!--foto 1-->
+     <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active " id="pills-home"role="tabpanel" aria-labelledby="pills-home-tab" >
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        
+        <div class="card mt-5 mx-auto" style="width: 600px;">
                 <div class="row justify-content-between align-items-center p-3">
                     <h5 class=" col-10 card-title mb-0">My first photo</h5>
                     <h5 class="col-2 card-text">12/14</h5>
                 </div>
-                <img src="https://picsum.photos/id/1020/400/200" alt="">
-                <p  class="px-3 my-2"><strong>23 likes</strong> </p>
+                <img src="https://source.unsplash.com/random/400x200" alt="">
+                <p  class="px-3 my-2"><strong>25 likes</strong> </p>
                 <p class="px-3">This is my firt photo of the feed. This is a multiline comment for testing purposes.I am learning to code with Breatcode</p>
             <div>
             <i class= "far fa-heart pl-3 d-inline-block text-danger"></i>
             <p class="d-inline-block pl-2">comment</p>
+                    </div> 
+                </div>
+            </div>      
         </div>
     </div>
-</div>
-<div class="row justify-content-center">
-    <div class="col-4 card mb-4 p-0">
-        <div class="card-body pb-1">
-            <div class="row justify-content-between">
-                <h5 class="card-tex pr-3">12/14</h5>
-            </div>
-        </div>
-        <img src="https://picsum.photos/id/1020/400/200" alt="">
-                <p  class="px-3 my-2"><strong>23 likes</strong> </p>
+
+
+    <!--foto 2-->
+    <div class="row">
+        <div class="card mt-5 mx-auto" style="width: 600px;">
+                <div class="row justify-content-between align-items-center p-3">
+                    <h5 class=" col-10 card-title mb-0">My first photo</h5>
+                    <h5 class="col-2 card-text">12/14</h5>
+                </div>
+                <img src="https://picsum.photos/seed/picsum/400/200" alt="">
+                <p  class="px-3 my-2"><strong>25 likes</strong> </p>
                 <p class="px-3">This is my firt photo of the feed. This is a multiline comment for testing purposes.I am learning to code with Breatcode</p>
             <div>
             <i class= "far fa-heart pl-3 d-inline-block text-danger"></i>
             <p class="d-inline-block pl-2">comment</p>
+            </div>       
+        </div>
     </div>
 
-</div>
+     <!--foto 3-->
+    <div class="row">
+        <div class="card mt-5 mx-auto" style="width: 600px;">
+                <div class="row justify-content-between align-items-center p-3">
+                    <h5 class=" col-10 card-title mb-0">My first photo</h5>
+                    <h5 class="col-2 card-text">12/14</h5>
+                </div>
+                <img src="https://source.unsplash.com/random/400x200" alt="">
+                <p  class="px-3 my-2"><strong>25 likes</strong> </p>
+                <p class="px-3">This is my firt photo of the feed. This is a multiline comment for testing purposes.I am learning to code with Breatcode</p>
+            <div>
+            <i class= "far fa-heart pl-3 d-inline-block text-danger"></i>
+            <p class="d-inline-block pl-2">comment</p>
+            </div> 
 
-			    <!--p>
-                <a href="#bloque1" data-toggle="collapse" role="button" aria-expanded="false"  aria-controls="bloque1" class="btn btn-secondary"><i class="fas fa-grip-horizontal"></i></a>
-                <a href="" class="btn btn-secondary"><i class="fas fa-stop"></i></a>
-                    <div  class= "collapse"  id="bloque1">
-                        <div class="card card-body">
-                            <img src="https://picsum.photos/id/1015/200/300"-->
-                        </div>
-                    </div>
-			    </p>
-            
-            </div>    
-		</div>
-	</div> 
-</div>
+            <div  class=" tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                
+                <div class="card-group">
+                    <img src="https://picsum.photos/id/237/400/200" class="card-img-top" alt="">
+                  </div>
+
+            </div>     
+        </div>
+
+
+        
 
 
     <!-- Optional JavaScript -->
